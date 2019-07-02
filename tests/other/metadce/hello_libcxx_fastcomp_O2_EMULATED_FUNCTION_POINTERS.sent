@@ -1,5 +1,6 @@
 DYNAMICTOP_PTR
-___cxa_uncaught_exception
+___assert_fail
+___cxa_uncaught_exceptions
 ___gxx_personality_v0
 ___lock
 ___map_file
