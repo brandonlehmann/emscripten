@@ -651,6 +651,7 @@ class libcxxabi(CXXLibrary, MTLibrary):
 
   def get_cflags(self):
     cflags = super(libcxxabi, self).get_cflags()
+    cflags.append('-DNDEBUG')
     if not self.is_mt:
       cflags.append('-D_LIBCXXABI_HAS_NO_THREADS')
     return cflags
